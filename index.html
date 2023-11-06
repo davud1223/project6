@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                html,body{
+            height: 100%;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 400px 400px 400px;  
+            gap: 10px;
+            background-color: lime;
+            padding: 10px;
+            height: 90%;
+
+        }
+        .grid-item{
+            display: flex;
+            background-color: yellow;
+            justify-content: center;
+            align-items: center;
+            background-image: url(ner.avif);
+            background-size: cover;
+        }
+        .item{
+            display: flex;
+            background-color: yellow;
+            justify-content: center;
+            align-items: center;
+            background-image: url(ney.jpg);
+            background-size: cover;
+        }
+        .grid{
+            display: flex;
+            background-color: yellow;
+            justify-content: center;
+            align-items: center;
+            background-image: url(Neymar.jpg);
+            background-size: cover; 
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item"></div>
+        <div class="item"></div>
+        <div class="grid"></div>
+</div>
+    
+</body>
+</html>
